@@ -2,7 +2,7 @@ body{
  margin: 0;
  text-align: center;
  font-family: font-family: 'Merriweather', serif;
- background-color: #e1e5ea;
+ 
 
 }
 h1{
@@ -58,9 +58,22 @@ h3{
    
    
 }
+.top-cloud:hover{
+    width: 11.5%;
+}
+.bottom-cloud:hover{
+    width: 11.5%; 
+}
 .myname{
    margin: 20px auto 0px auto;
 }
+.myname:hover{
+font-size: 5.7rem;
+}
+.myimg:hover{
+    width: 15.4%;
+}
+
 .footer-link{
 color:  #11999E;
 }
@@ -79,6 +92,10 @@ margin: auto;
 .code-img{
     width: 25%;
     float: left;
+    margin-right: 30px;
+}
+.game-img{
+    width: 40%;
     margin-right: 30px;
 }
 .idea-img{
